@@ -10,8 +10,6 @@ public class calculator {
         System.out.println("Enter second number:");
         int num2 = scanner.nextInt();
 
-
-
 //maryam
 
             int power = 1;
@@ -19,7 +17,6 @@ public class calculator {
                 power = power * num1;
             }
             System.out.println("Power result: " +power );
-
 
 //safa
 
@@ -29,17 +26,11 @@ public class calculator {
             }
             System.out.println("factorial of first number = " + factorial);
 
-
-
-
-
-
             //ahed
 
              num1 = scanner.nextInt();
              int result = num1 * num1;
             System.out.println("Square = " + result);
-
 
 
 
@@ -56,29 +47,21 @@ public class calculator {
             }
 
         // kawther
-import java.util.Scanner;
-
-        public class calculator {
-
-            public static String evenOdd(int num1){
-
-
-                public static void main(String[] args) {
-                    Scanner scanner = new Scanner(System.in);
-//second:
-
-                    System.out.print("Enter a number: ");
-                    int num1 = scanner.nextInt();
-                    String result = evenOdd(num1);
-                    System.out.println("Result: " + result);
+        public static String evenOdd(int num) {
+     if (num % 2 == 0)
+     return "Even";
+    else
+    return "Odd";
+        }
+       Scanner scanner = new Scanner(System.in);
+       System.out.print("Enter a number: ");
+       int num1 = scanner.nextInt();
+        String result = evenOdd(num1);
+        System.out.println("Result: " + result);
 
                     scanner.close();
                 }
             }
-    }
-}
 
 
-
-
-
+        }
