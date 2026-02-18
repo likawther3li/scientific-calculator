@@ -55,8 +55,30 @@ public class calculator {
             System.out.println("The number : " + num1);
             }
 
+        // kawther
+import java.util.Scanner;
 
+        public class calculator {
+
+            public static String evenOdd(int num1){
+
+
+                public static void main(String[] args) {
+                    Scanner scanner = new Scanner(System.in);
+//second:
+
+                    System.out.print("Enter a number: ");
+                    int num1 = scanner.nextInt();
+                    String result = evenOdd(num1);
+                    System.out.println("Result: " + result);
+
+                    scanner.close();
+                }
+            }
     }
 }
+
+
+
 
 
