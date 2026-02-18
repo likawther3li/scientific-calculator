@@ -8,11 +8,14 @@ public class calculator {
 
 
 
+
 //maryam
+
             System.out.println("Enter first number:");
             int num1 = scanner.nextInt();
             System.out.println("Enter second number:");
             int num2 = scanner.nextInt();
+
 
 
             int power = 1;
@@ -22,27 +25,39 @@ public class calculator {
             System.out.println("Power result: " +power );
 
 
+//safa
+
+            int factorial = 1;
+            for (int i = num1; i >=1; i++){
+                factorial = factorial * i;
+            }
+            System.out.println("factorial of first number = " + factorial);
+
+
+
+
+
 
             //ahed
-        //3) Square generation functionality that takes one number as input.
-        System.out.println("Chose number to enter it: ");
-        int userNumber = scanner.nextInt();
-        int result = userNumber * userNumber;
-        System.out.println("Square = " + result);
+
+             num1 = scanner.nextInt();
+             int result = num1 * num1;
+            System.out.println("Square = " + result);
+
 
 
 
         //rima
-        System.out.println("Enter a number: ");
-        int number = scanner.nextInt();
-        if (number < 0) {
-            int inputNumber = number * (-1);
+
+             num1 = scanner.nextInt();
+            if (num1 < 0) {
+
+            int inputNumber = num1 * (-1);
             System.out.println("The number in positive: " + inputNumber);
 
-
-        } else {
-            System.out.println("The number : " + number);
-        }
+            } else {
+            System.out.println("The number : " + num1);
+            }
 
     }
 }
